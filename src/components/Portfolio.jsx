@@ -173,7 +173,7 @@ export default function Portfolio() {
   {/* Right: Profile Photo */}
   <div className="mt-8 md:mt-0 md:ml-12">
     <div className="w-48 h-48 bg-[#DACE84]/20 rounded-full border-4 border-white/20">
-    <img src="./assets/profile_pic.jpg" alt="" />
+    <img src="https://github.com/dhinakar1210/dhinakar1210.github.io/blob/main/src/components/assets/profile_pic.jpg" alt="" />
     </div>
   </div>
 </section>
@@ -250,7 +250,7 @@ export default function Portfolio() {
                 <img src={p.img} alt={p.title} className="w-full h-40 object-cover" />
                 <CardContent>
                   <h3 className="text-xl font-semibold text-white mb-4">{p.title}</h3>
-                  <ul className="list-disc pl-5 text-pink/90">{p.bullets.map((b,j)=><li key={j}>{b}</li>)}</ul>
+                  <ul className="list-disc pl-5 text-white/90">{p.bullets.map((b,j)=><li key={j}>{b}</li>)}</ul>
                 </CardContent>
               </Card>
             ))}
