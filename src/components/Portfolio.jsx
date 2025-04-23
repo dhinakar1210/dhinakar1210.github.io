@@ -250,7 +250,7 @@ export default function Portfolio() {
                 <img src={p.img} alt={p.title} className="w-full h-40 object-cover" />
                 <CardContent>
                   <h3 className="text-xl font-semibold text-white mb-4">{p.title}</h3>
-                  <ul className="list-disc pl-5 text-white/90">{p.bullets.map((b,j)=><li key={j}>{b}</li>)}</ul>
+                  <ul className="list-disc pl-5 text-white/90" style={"color: pink"}>{p.bullets.map((b,j)=><li key={j}>{b}</li>)}</ul>
                 </CardContent>
               </Card>
             ))}
