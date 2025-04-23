@@ -173,7 +173,7 @@ export default function Portfolio() {
   {/* Right: Profile Photo */}
   <div className="mt-8 md:mt-0 md:ml-12">
     <div className="w-48 h-48 bg-[#DACE84]/20 rounded-full border-4 border-white/20">
-    <img src="C:/Users/dhina/OneDrive/Desktop/portfolio/src/components/assets/profile_pic.jpg" alt="" />
+    <img src="./assets/profile_pic.jpg" alt="" />
     </div>
   </div>
 </section>
