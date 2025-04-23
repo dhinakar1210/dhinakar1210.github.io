@@ -241,7 +241,7 @@ export default function Portfolio() {
 </section>
         {/* Projects */}
         <section id="projects" className="animate-fade-in">
-          <h2 className="text-3xl font-bold mb-6 text-white text-center">Projects</h2>
+          <h2 className="text-3xl font-bold mb-6 p-6 text-white text-center">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {projects.map((p,i)=>(
               <Card key={i} className="bg-white/20 backdrop-blur-lg border border-white/30 overflow-hidden hover:scale-105 transition">
